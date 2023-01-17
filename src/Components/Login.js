@@ -11,6 +11,7 @@ import {
   MDBCheckbox
 }
 from 'mdb-react-ui-kit';
+import './Styles/Login.css';
 
 function Login() {
   return (
