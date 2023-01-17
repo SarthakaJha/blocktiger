@@ -73,8 +73,8 @@ position: absolute; // so it goes behind the current content
 
  export const Button = styled.button`
     border-radius: 20px;
-    border: 1px solid #ff4b2b;
-    background-color: #ff4b2b;
+    border: background: rgb(2,0,36);
+    background: rgb(2,0,36);
     color: #9999C3;
     font-size: 12px;
     font-weight: bold;

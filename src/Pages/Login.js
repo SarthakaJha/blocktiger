@@ -1,5 +1,5 @@
 import React from "react";
-import * as Components from './components.js';
+import * as Components from './component.js';
 import './Login.css';
 
 function Login() {
@@ -40,7 +40,7 @@ function Login() {
                     </Components.LeftOverlayPanel>
 
                     <Components.RightOverlayPanel signinIn={signIn}>
-                      <Components.Title>Hello, Friend!</Components.Title>
+                      <Components.Title>Welcome, To your spot for noterization</Components.Title>
                       <Components.Paragraph>
                           Enter Your personal details and start journey with us
                       </Components.Paragraph>

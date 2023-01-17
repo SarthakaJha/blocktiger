@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Styles/navbar.css";
+
 import {
   FaLinkedinIn,
   FaInstagramSquare,
@@ -10,7 +11,7 @@ import {
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { NavLink } from "react-router-dom";
-
+import Login from "../Pages/Login";
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
@@ -18,6 +19,7 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
+          <img src=".\images\Logo.PNG" alt="BlockTiger"></img>
           <h2>
             <span>N</span>oteto
           </h2>
@@ -36,7 +38,7 @@ const Navbar = () => {
               <NavLink to="/service">services</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">contact</NavLink>
+              <NavLink to="/Login">Login</NavLink>
             </li>
           </ul>
         </div>
@@ -59,7 +61,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-             <NavLink to =" /loginpage"><FiLogIn className="FiLogIn" /></NavLink>
+             <NavLink to =" /Login"><FiLogIn className="FiLogIn" /></NavLink>
             </li>
           </ul>
 
