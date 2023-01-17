@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaInstagramSquare,
 } from "react-icons/fa";
+import {SiTwitter} from "react-icons/si";
 import {
   FiLogIn
 } from "react-icons/fi";
@@ -35,7 +36,7 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/service">services</NavLink>
+              <NavLink to="/Status">Status</NavLink>
             </li>
             <li>
               <NavLink to="/Login">Login</NavLink>
@@ -61,7 +62,9 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-             <NavLink to =" /Login"><FiLogIn className="FiLogIn" /></NavLink>
+            <a href="https://twitter.com/BlockTiger_io">
+            <SiTwitter className="SiTwitter" />
+            </a>
             </li>
           </ul>
 
