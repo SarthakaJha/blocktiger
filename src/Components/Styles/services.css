@@ -1,0 +1,33 @@
+.s-coantainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+    margin: 220px;
+  }
+  
+  @media (max-width: 600px) {
+    .left-section,
+    .right-section {
+      flex-basis: 100%;
+    }
+  }
+
+  button {
+    margin: 30px;
+    font-size: 18px;
+    height: 50px;
+    width: 450px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
+    background: rgb(179, 205, 218);
+     cursor: pointer;
+   }
+
+   
