@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <img src=".\images\Logo.PNG" alt="BlockTiger"></img>
+          <img src=".\Components\notato-logo(1).png" alt="BlockTiger"></img>
           <h2>
             <span>N</span>oteto
           </h2>
@@ -77,11 +77,6 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* hero section  */}
-      {/* <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical</h1>
-      </section> */}
     </>
   );
 };

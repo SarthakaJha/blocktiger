@@ -3,7 +3,8 @@ import * as Components from './component.js';
 import './Login.css';
 
 function Login() {
-  const [signIn, toggle] = React.useState(true);
+
+    const [signIn, toggle] = React.useState(true);
     return(
         <Components.Container>
             <Components.SignUpContainer signinIn={signIn}>
@@ -45,7 +46,7 @@ function Login() {
                           Enter Your personal details and start journey with us
                       </Components.Paragraph>
                           <Components.GhostButton onClick={() => toggle(false)}>
-                              Sigin Up
+                              Sign Up
                           </Components.GhostButton> 
                     </Components.RightOverlayPanel>
 
