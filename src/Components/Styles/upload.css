@@ -9,8 +9,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
-  
+
   #form-file-upload {
     height: 16rem;
     width: 28rem;
@@ -33,6 +34,8 @@ body {
     border-style: dashed;
     border-color: #cbd5e1;
     background-color: #f8fafc;
+    top:50%;
+    left: 50%;
   }
   
   #label-file-upload.drag-active {
